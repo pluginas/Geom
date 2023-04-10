@@ -95,4 +95,5 @@ public class Application implements Consumer<Event> {
             s.getCanvas().clear(0xFF264653);
         }
     }
+
 }
