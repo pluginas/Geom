@@ -77,6 +77,12 @@ public class Application implements Consumer<Event> {
         if (window._layer == null)
             throw new RuntimeException("Нет доступных слоёв для создания");
 
+        /**
+         * радиус скругления элементов
+         */
+        public static final int C_RAD_IN_PX = 4;
+
+
     }
 
     /**
