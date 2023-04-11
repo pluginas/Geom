@@ -133,6 +133,7 @@ public class CoordinateSystem2i {
         return size;
     }
 
+
     /**
      * Строковое представление объекта вида:
      *
@@ -142,6 +143,7 @@ public class CoordinateSystem2i {
     public String toString() {
         return "CoordinateSystem2i{" + min + ", " + max + '}';
     }
+
 
     /**
      * Проверка двух объектов на равенство
