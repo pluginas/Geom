@@ -1,10 +1,10 @@
 package app;
 
+import controls.Label;
 import io.github.humbleui.jwm.*;
 import io.github.humbleui.jwm.skija.EventFrameSkija;
 import io.github.humbleui.skija.Canvas;
 import io.github.humbleui.skija.Paint;
-import io.github.humbleui.skija.RRect;
 import io.github.humbleui.skija.Surface;
 import misc.CoordinateSystem2i;
 import misc.Misc;
@@ -88,31 +88,16 @@ public class Application implements Consumer<Event> {
     /**
      * Рисование
      *
-     * @param canvas низкоуровневый инструмент рисования примитивов от Skija
-     * @param height высота окна
-     * @param width  ширина окна
-     */
-    /**
-     * Рисование
-     *
-     * @param canvas низкоуровневый инструмент рисования примитивов от Skija
-     * @param windowCS высота окна
+     * @param canvas   низкоуровневый инструмент рисования примитивов от Skija
+     * @param windowCS СК окна
      */
     public void paint(Canvas canvas, CoordinateSystem2i windowCS) {
         // запоминаем изменения (пока что там просто заливка цветом)
         canvas.save();
         // очищаем канвас
         canvas.clear(APP_BACKGROUND_COLOR);
-        // создаём кисть
-        Paint paint = new Paint();
-        // задаём цвет рисования
-        paint.setColor(Misc.getColor(100, 255, 255, 255));
-        CoordinateSystem2i rectCS = new CoordinateSystem2i(
-                windowCS.getSize().x / 3, windowCS.getSize().y / 3,
-                windowCS.getSize().x / 3, windowCS.getSize().y / 3
-        );
-        // рисуем квадрат
-        canvas.drawRRect(rectCS.getRRect(4), paint);
+        // рисуем заголовок
+        label.paint(canvas, windowCS);
         // восстанавливаем состояние канваса
         canvas.restore();
     }
@@ -138,5 +123,17 @@ public class Application implements Consumer<Event> {
             Surface s = ee.getSurface();
             paint(s.getCanvas(), new CoordinateSystem2i(s.getWidth(), s.getHeight()));    }
     }
+
+    /**
+     * отступы панелей
+     */
+    public static final int PANEL_PADDING = 5;
+
+
+
+    /**
+     * Первый заголовок
+     */
+    private final Label label;
 
 }
