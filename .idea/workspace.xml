@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="input tab works">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controls/Button.java" afterDir="false" />
+    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="buttons work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681325355114</updated>
       <workItem from="1681325356340" duration="2568000" />
-      <workItem from="1681632961600" duration="5274000" />
+      <workItem from="1681632961600" duration="6570000" />
     </task>
     <task id="LOCAL-00001" summary="adding points works">
       <created>1681326097454</created>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681639009008</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="buttons work">
+      <created>1681639699040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681639699040</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +135,7 @@
     <MESSAGE value="inputs work" />
     <MESSAGE value="input select works" />
     <MESSAGE value="input tab works" />
-    <option name="LAST_COMMIT_MESSAGE" value="input tab works" />
+    <MESSAGE value="buttons work" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttons work" />
   </component>
 </project>
