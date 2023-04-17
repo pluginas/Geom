@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="mouse cursor" />
+    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="render statistic">
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/SumQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +99,7 @@
       <updated>1681325355114</updated>
       <workItem from="1681325356340" duration="2568000" />
       <workItem from="1681632961600" duration="11451000" />
-      <workItem from="1681725849097" duration="3170000" />
+      <workItem from="1681725849097" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="adding points works">
       <created>1681326097454</created>
@@ -232,6 +238,7 @@
     <MESSAGE value="cs rendering" />
     <MESSAGE value="scale works" />
     <MESSAGE value="mouse cursor" />
-    <option name="LAST_COMMIT_MESSAGE" value="mouse cursor" />
+    <MESSAGE value="render statistic" />
+    <option name="LAST_COMMIT_MESSAGE" value="render statistic" />
   </component>
 </project>
