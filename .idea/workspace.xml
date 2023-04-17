@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="cs rendering">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="053035c9-f989-4c61-aa2c-ab696069c220" name="Changes" comment="scale works">
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <updated>1681325355114</updated>
       <workItem from="1681325356340" duration="2568000" />
       <workItem from="1681632961600" duration="11451000" />
-      <workItem from="1681725849097" duration="2414000" />
+      <workItem from="1681725849097" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="adding points works">
       <created>1681326097454</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681727691083</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="scale works">
+      <created>1681728374681</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681728374681</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="solve button" />
     <MESSAGE value="unit tests" />
     <MESSAGE value="cs rendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="cs rendering" />
+    <MESSAGE value="scale works" />
+    <option name="LAST_COMMIT_MESSAGE" value="scale works" />
   </component>
 </project>
